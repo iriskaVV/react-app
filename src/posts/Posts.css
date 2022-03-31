@@ -1,0 +1,40 @@
+.forNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shellNews{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 50rem;
+    height: 15rem;
+
+    border: 1px solid rgb(238, 226, 212);
+    border-radius: 1rem;
+    background-color: rgb(238, 226, 212);
+}
+
+.titleNews{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+}
+
+.bodyNews{
+    display: flex;
+    height: 5rem;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.userNews{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35px;
+    margin-right: 35px;
+    color: rgb(92, 92, 92);
+}
